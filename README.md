@@ -9,6 +9,5 @@ ______________________________________________________________________
 #### To code in SimpleDay
 This code language is symbolic and is semi-strict about how stuff is placed.
 
-```python
-print("Hi")
-```
+`/` | This represents a letter by count, so / = a, // = b, etc. This sets a character into the cell
+`n` | This represents a number by count, so like `/`, n = 1, nn = 2, etc. This also sets stuff into the cell
