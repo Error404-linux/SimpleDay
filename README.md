@@ -9,4 +9,6 @@ ______________________________________________________________________
 #### To code in SimpleDay
 This code language is symbolic and is semi-strict about how stuff is placed.
 
-``` / ```
+```python
+print("Hi")
+```
