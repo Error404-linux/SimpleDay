@@ -145,7 +145,7 @@ def compile_slashlang(src: str, indent=1):
                     j += 1
                 if j >= L:
                     raise SyntaxError("Unterminated [idx] in loop count")
-                j += 1  # skip ']'
+                j += 1
 
                 index_num = int("".join(idx))
                 code.append(f"{tab}__loop_count = _resolve_cell_numeric(mem, mem_type, {index_num})")
