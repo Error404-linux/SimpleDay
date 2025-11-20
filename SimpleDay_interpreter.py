@@ -179,6 +179,20 @@ def compile_slashlang(src: str, indent=1):
             i = j + 1
             continue
 
+        if c == "p" and i+1 < L and src[i+1] == "/":
+            j = i+2; snip=[]
+            while j < L:
+                if src[j]=="p" and j+1<L and src[j+1]=="\\": break
+                snip.append(src[j]); j+=1
+            if j>=L: raise SyntaxError("Unterminated python block")
+
+            snippet="".join(snip)
+            code.append(f"{tab}_ctx={{'mem':mem,'mem_type':mem_type,'p':p,'out':out,'__builtins__':{{}}}}")
+            code.append(f"{tab}exec({repr(snippet)}, {{}}, _ctx)")
+            code.append(f"{tab}p=_ctx['p']; mem=_ctx['mem']; mem_type=_ctx['mem_type']; out=_ctx['out']")
+            i = j+2
+            continue
+        
         
         if c in "op":
             j = i+1
@@ -202,19 +216,11 @@ def compile_slashlang(src: str, indent=1):
             continue
 
 
-        if c == "p" and i+1 < L and src[i+1] == "/":
-            j = i+2; snip=[]
-            while j < L:
-                if src[j]=="p" and j+1<L and src[j+1]=="\\": break
-                snip.append(src[j]); j+=1
-            if j>=L: raise SyntaxError("Unterminated python block")
-
-            snippet="".join(snip)
-            code.append(f"{tab}_ctx={{'mem':mem,'mem_type':mem_type,'p':p,'out':out,'__builtins__':{{}}}}")
-            code.append(f"{tab}exec({repr(snippet)}, {{}}, _ctx)")
-            code.append(f"{tab}p=_ctx['p']; mem=_ctx['mem']; mem_type=_ctx['mem_type']; out=_ctx['out']")
-            i = j+2
+        if c == "$":
+            while i < L and src[i] != "\n":
+                i += 1
             continue
+
 
         
         if c == "+":
