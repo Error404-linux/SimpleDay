@@ -21,7 +21,7 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `;` | The semicolon asks for an input, so please give it one, else it will hate you...  
 `$` | This sign makes a comment. Why `$` instead of `#`? yes.  
 `_` | This converts a number represented by n negative, or a character represented by / captial. Examples, `_n = -1`, `_/ = A`.  
-`o/p` | This creates a comparison with a number stated to the current cell. o is <, p is >. e.g. `o2`, `p3`. Can also be used with cell data like [0]  
+`o/p` | This creates a comparison with a number stated to the current cell. o is <, p is >. e.g. `o2`, `p3`. Can also be used with cell data like [0] to get the value in cell 0  
 `+/-` | The `+` sign __ADDS__ 1 to the cell. The `-` sign __SUBTRACTS__ 1 from the cell.  
 `<N/C...>` | These 2 symbols `<` and `>` create loops, set by a number or cell at the start of a loop. `[1]` gets the value of cell 1 as the times it has to loop, and 1 makes the loop loops once. e.g. `<1+\>`, `<[0]+>\`  
 `p/...p\` | This uses embedded python possible, though limited.  
