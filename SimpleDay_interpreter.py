@@ -78,7 +78,7 @@ def compile_slashlang(src: str, indent=1):
 
         
         if c == ";":
-            code.append(f"{tab}inp = input(' '+str(p)+' > ')")
+            code.append(f"{tab}inp = input(''+str(p)+' > ')")
             code.append(f"{tab}try: mem[p] = int(inp)")
             code.append(f"{tab}except: mem[p] = 0")
             code.append(f"{tab}mem_type[p]='num'")
