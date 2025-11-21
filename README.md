@@ -16,7 +16,7 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `n` | This represents a number by count. `n = 1`, `nn = 2`, etc. This sets a number into the cell.  
 `[ or ]` | This changes the cell by one, no matter what. Can be used to create variables.  
 `\` | Backslashes can be chained up to 3. 1 `\` prints the current cell, 2 of these `\` make a space and 3 make a newline.   
-`.` | This converts a number to a letter starting at 96, and yes, if you use a negative number, it will lower it by that number.  
+`.` | This converts a number to a letter starting at a and yes, if you use a negative number, it will lower it by that number.  
 `;` | The semicolon asks for an input, so please give it one, else it will hate you...  
 `$` | This sign makes a comment. Why `$` instead of `#`? yes.  
 `_` | This converts a number represented by n negative, or a character represented by / captial. Examples, `_n = -1`, `_/ = A`.  
