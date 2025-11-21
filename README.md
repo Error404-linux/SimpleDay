@@ -22,4 +22,4 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `_` | This converts a number represented by n negative, or a character represented by / captial. Examples, `_n = -1`, `_/ = A`.  
 `o/p` | This creates a comparison with a number stated to the current cell. o is <, p is >, or atleast I think. e.g. `o2`, `p3`.  
 `+/-` | The `+` sign __ADDS__ 1 to the cell. The `-` sign __SUBTRACTS__ 1 from the cell.  
-<N/C...> | These 2 symbols create loops, set by a number or cell at the start. [1] gets the value of cell 1, and 1 makes it loop once. e.g. `<1+\>`, `<[0]+>\`
+`<N/C...>` | These 2 symbols create loops, set by a number or cell at the start. `[1]` gets the value of cell 1, and 1 makes it loop once. e.g. `<1+\>`, `<[0]+>\`
