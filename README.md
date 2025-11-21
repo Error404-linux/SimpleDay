@@ -24,7 +24,7 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `o/p` | This creates a comparison with a number stated to the current cell. o is <, p is >. e.g. `o2`, `p3`. Can also be used with cell data like [0]  
 `+/-` | The `+` sign __ADDS__ 1 to the cell. The `-` sign __SUBTRACTS__ 1 from the cell.  
 `<N/C...>` | These 2 symbols `<` and `>` create loops, set by a number or cell at the start of a loop. `[1]` gets the value of cell 1 as the times it has to loop, and 1 makes the loop loops once. e.g. `<1+\>`, `<[0]+>\`  
-`p/...p\` | This uses embedded python possible, though limited. 
+`p/...p\` | This uses embedded python possible, though limited.  
 `m/...m\` | This uses math. e.g. `m/[0]*4m\`. What this does is it gets the value of cell 0 * 4  
 
 _______________________________________________________________________________
