@@ -6,7 +6,7 @@ If you want to download the python interpreter from the website for use, you dow
 
 If you want to use git, you can do the following on the line below:
 ```bash
-
+git clone https://github.com/Error404-linux/SimpleDay.git
 ```
 ______________________________________________________________________
 #### To code in SimpleDay
