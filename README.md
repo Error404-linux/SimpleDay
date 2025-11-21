@@ -29,7 +29,7 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 _______________________________________________________________________________
 
 ###### Examples  
-`
+```
 [;]
 m/[1]m\
 [[
@@ -43,6 +43,6 @@ m/[0]m\
 p0
 ]]
 <[2]m/[1]*-1m\>\
-`
+```
 _____________________________________________________________________________________
 #### Hope you enjoy this coding language
