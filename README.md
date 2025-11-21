@@ -18,5 +18,6 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `\` | Backslashs can be chained up to 3. 1 `\` prints the current cell, 2 of these `\` make a space and 3 make a newline.   
 `.` | This converts a number to a letter starting at 96, and yes, if you use a negative number, it will lower it by that number.
 `;` | The semicolon asks for an input, so please give it one, else it will hate you...  
-`$` | This sign makes a comment. Why `$` instead of `#`? yes.
-`_` | This converts a number represented by n negative, or a character represented by / captial. Examples, _n = -1, _/ = A.
+`$` | This sign makes a comment. Why `$` instead of `#`? yes.  
+`_` | This converts a number represented by n negative, or a character represented by / captial. Examples, _n = -1, _/ = A.  
+`o/p` | This creates a comparison with a number stated to the current cell. o is <, p is >, or atleast I think. eg. o2, p3.  
