@@ -4,7 +4,7 @@ _____________________________________________________________________
 #### To Use SimpleDay  
 If you want to download the python interpreter from the website for use, you download the file, and put it into your system's `PATH`  
 
-If you want to use git, you can do the following on the line below:  
+If you want to use git, you can do the following on the line below on your terminal/command-line:  
 ```bash
 git clone https://github.com/Error404-linux/SimpleDay.git
 ```
