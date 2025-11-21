@@ -1,6 +1,6 @@
 # SimpleDay
 This is a custom coding language/esolang that is built around python. It is also called SD by me, cause of course I'm too lazy to spell SimpleDay fully every time.  
-----
+___
 #### To Use SimpleDay  
 If you want to download the python interpreter from the website for use, you download the file, and put it into your system's `PATH`  
 
