@@ -8,7 +8,8 @@ If you want to use git, you can do the following on the line below on your termi
 ```bash
 git clone https://github.com/Error404-linux/SimpleDay.git
 ```
-To run a file, you need to have a .day extension, and run the file with it.  
+----------------------------------------------------------------------
+To run a file that uses SimpleDay, you need to have a .day extension, and run the file with it.  
 ______________________________________________________________________
 #### To code in SimpleDay
 This code language is symbolic and is right-handed (sorry for you left-handed users)  
