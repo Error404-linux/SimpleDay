@@ -15,4 +15,4 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `/` | This represents a letter by count. `/ = a`, `// = b`, etc. This sets a character into the cell.  
 `n` | This represents a number by count. `n = 1`, `nn = 2`, etc. This sets a number into the cell.  
 `[ or ]` | This changes the cell by one, no matter what. Can be used to create variables.  
-`\` | Backslashs can be changed up to three, then it becomes unpredictable. 1 `\` prints the current cell, 2 of these `\` make a space and 3 make a newline   
+`\` | Backslashs can be chained up to 3. 1 `\` prints the current cell, 2 of these `\` make a space and 3 make a newline   
