@@ -1,14 +1,14 @@
 # SimpleDay
 This is a custom coding language/esolang that is built around python. It is also called SD by me, cause of course I'm too lazy to spell SimpleDay.  
 _____________________________________________________________________
-#### To Use SimpleDay
-If you want to download the python interpreter from the website for use, you download the file, and put it into your system's `PATH`
+#### To Use SimpleDay  
+If you want to download the python interpreter from the website for use, you download the file, and put it into your system's `PATH`  
 
-If you want to use git, you can do the following on the line below:
+If you want to use git, you can do the following on the line below:  
 ```bash
 git clone https://github.com/Error404-linux/SimpleDay.git
 ```
-To run a file, you need to have a .day extension, and run the file with it.
+To run a file, you need to have a .day extension, and run the file with it.  
 ______________________________________________________________________
 #### To code in SimpleDay
 This code language is symbolic and is right-handed (sorry for you left-handed users)  
@@ -24,7 +24,7 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `o/p` | This creates a comparison with a number stated to the current cell. o is <, p is >. e.g. `o2`, `p3`. Can also be used with cell data like [0]  
 `+/-` | The `+` sign __ADDS__ 1 to the cell. The `-` sign __SUBTRACTS__ 1 from the cell.  
 `<N/C...>` | These 2 symbols `<` and `>` create loops, set by a number or cell at the start of a loop. `[1]` gets the value of cell 1 as the times it has to loop, and 1 makes the loop loops once. e.g. `<1+\>`, `<[0]+>\`  
-`p/...p\` | This uses embedded python possible, though limited. please no villian acts, please.  
+`p/...p\` | This uses embedded python possible, though limited. 
 `m/...m\` | This uses math. e.g. `m/[0]*4m\`. What this does is it gets the value of cell 0 * 4  
 
 _______________________________________________________________________________
@@ -36,4 +36,4 @@ m/[1]*4m\
 \
 ```
 _____________________________________________________________________________________
-#### Hope you enjoy this coding language
+#### Hope you enjoy this coding language, give it a star if you like it.
