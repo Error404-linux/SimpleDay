@@ -1,6 +1,6 @@
 # SimpleDay
 This is a custom coding language/esolang that is built around python. It is also called SD by me, cause of course I'm too lazy to spell SimpleDay fully every time.  
-_____________________________________________________________________
+___
 #### To Use SimpleDay  
 If you want to download the python interpreter from the website for use, you download the file, and put it into your system's `PATH`  
 
@@ -8,9 +8,9 @@ If you want to use git, you can do the following on the line below on your termi
 ```bash
 git clone https://github.com/Error404-linux/SimpleDay.git
 ```
-----------------------------------------------------------------------
+---
 To run a file that uses SimpleDay, you need to have a .day extension, and run the file with it.  
-______________________________________________________________________
+___
 #### To code in SimpleDay
 This code language is symbolic and is right-handed (sorry for you left-handed users)  
 
@@ -28,7 +28,7 @@ This code language is symbolic and is right-handed (sorry for you left-handed us
 `p/...p\` | This uses embedded python possible, though limited.  
 `m/...m\` | This uses math. e.g. `m/[0]*4m\`. What this does is it gets the value of cell 0 * 4  
 
-_______________________________________________________________________________
+___
 
 ###### Examples  
 ```
