@@ -40,4 +40,4 @@ ________________________________________________________________________________
 #### Hope you enjoy this coding language, give it a star if you like it.
 ---
 ###### Cool stuff:  
-Did you know I was sooo lazy about naming at first I asked chatgpt to give me a name. He picked Slashlang, so I went with it and started coding with the name Slashlang in mind, until I thought the named sucked and tried naming it on my own, and that's why it is now called SimpleDay.
+Did you know I was sooo lazy about naming at first I asked an AI to give me a name for my coding language. They picked Slashlang, so I went with it and started coding with the name Slashlang in mind, until I thought the named sucked and tried naming it on my own, and that's why it is now called SimpleDay.
